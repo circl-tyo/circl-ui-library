@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "@two-design/theme",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Two",
+  "homepage": "https://github.com/two2two2/two-design-ui-library#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/two2two2/two-design-ui-library.git"
+  },
+  "dependencies": {
+    "@two-design/color": "^1.0.0",
+    "@two-design/spacing": "^1.0.0",
+    "@two-design/typography": "^1.0.0"
+  }
+}

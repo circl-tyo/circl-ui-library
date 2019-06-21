@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "two-design-components",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Two",
+  "homepage": "https://github.com/two2two2/two-design-ui-library#readme",
+  "license": "MIT",
+  "main": "src/js/modules.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/two2two2/two-design-ui-library.git"
+  },
+  "dependencies": {
+    "@two-design/grid": "^1.0.0",
+    "@two-design/icons": "^1.0.0",
+    "@two-design/motion": "^1.0.0",
+    "@two-design/theme": "^1.0.0"
+  }
+}

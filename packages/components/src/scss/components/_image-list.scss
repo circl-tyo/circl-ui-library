@@ -1,0 +1,54 @@
+//
+// Image list
+//
+
+.image-list {
+  position: relative;
+
+  &__item {
+    margin-bottom: $space-04;
+  }
+
+  &__item-content {
+    position: relative;
+    display: block;
+  }
+
+  &__item-link {
+    position: relative;
+    display: block;
+    cursor: pointer;
+
+    &:hover .image-list__item-image::before {
+      opacity: 1;
+    }
+  }
+
+  &__item-image {
+    position: relative;
+
+    &::before {
+      @include absolute($bottom: 0, $left: 0);
+      background-color: $primary-color;
+      content: '';
+      height: $border-weight-bold;
+      width: 100%;
+      opacity: 0;
+      @include motion(opacity, 200ms, on);
+    }
+  }
+
+  &__item-label {
+    display: block;
+    margin-top: $space-01;
+  }
+
+  &__item-label--band {
+    @include absolute($bottom: 0, $left: 0);
+    display: block;
+    background-color: rgba($primary_color, .5);
+    color: $white;
+    padding: $space-02 $space-03;
+    width: 100%;
+  }
+}

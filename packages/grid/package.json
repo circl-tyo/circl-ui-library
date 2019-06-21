@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "@two-design/grid",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Two",
+  "homepage": "https://github.com/two2two2/two-design-ui-library#readme",
+  "license": "MIT",
+  "main": "grid.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/two2two2/two-design-ui-library.git"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "visual-forms",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Two",
+  "homepage": "https://github.com/two2two2/two-design-ui-library#readme",
+  "license": "MIT",
+  "main": "visual-forms.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/two2two2/two-design-ui-library.git"
+  }
+}

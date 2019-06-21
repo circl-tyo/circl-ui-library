@@ -1,0 +1,23 @@
+//
+// Color
+//
+
+$primary-color: $black !default;
+$secondary-color: $gray-500 !default;
+$third-color: $gray-200 !default;
+$tertiary-color: $gray-100 !default;
+
+
+// Specific
+$disabled-color: (
+  disabled-01: $gray-100, // background-color
+  disabled-02: $gray-300 // border-color, color
+) !default;
+$error-color: $red-700 !default;
+$hover-color: (
+  hover-01: $gray-100,
+  hover-02: $gray-200
+) !default;
+$input-color: $gray-100 !default;
+$placeholder-color: $gray-500 !default;
+$selection-color: $blue-300 !default;
