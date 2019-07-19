@@ -1,11 +1,5 @@
-# `layout`
+# Two Design Components
 
-> TODO: description
+## Getting Started
 
-## Usage
-
-```
-const layout = require('layout');
-
-// TODO: DEMONSTRATE API
-```
+Please see [Two Design Boilerplate](https://github.com/two2two2/two-design-boilerplate).

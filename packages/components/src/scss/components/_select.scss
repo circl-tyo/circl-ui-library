@@ -19,19 +19,19 @@
 
   &--disabled {
     &::after {
-      color: map-get($disabled-color, disabled-02);
+      color: $disabled-02;
     }
   }
 
   &--invalid {
     .select__input {
-      outline: $border-weight-bold solid $error-color !important;
+      outline: $border-weight-bold solid $invalid !important;
     }
   }
 
   &__input {
     display: block;
-    background-color: $input-color;
+    background-color: $background-input;
     border: none;
     border-radius: 0;
     cursor: pointer;
@@ -39,16 +39,16 @@
     padding: $space-02 $space-05 $space-02 $space-03;
 
     &:disabled {
-      background-color: map-get($disabled-color, disabled-01);
-      color: map-get($disabled-color, disabled-02);
+      background-color: $disabled-01;
+      color: $disabled-02;
     }
 
     &:focus {
-      outline: $border-weight-bold solid $primary-color;
+      outline: $border-weight-bold solid $border-focus;
     }
 
     &:not(:disabled):hover {
-      background-color: map-get($hover-color, hover-02);
+      background-color: $hover-02;
     }
   }
 }

@@ -3,56 +3,56 @@
 //
 
 .text-field {
-  background-color: $input-color;
+  background-color: $background-input;
   outline: $border-weight-bold solid transparent;
   outline-offset: -$border-weight-bold;
   width: 100%;
   padding: $space-02 $space-03;
 
   &::placeholder {
-    color: $placeholder-color;
+    color: $placeholder;
   }
 
   &:disabled {
-    background-color: map-get($disabled-color, disabled-01);
+    background-color: $disabled-01;
 
     &::placeholder {
-      color: map-get($disabled-color, disabled-02);
+      color: $disabled-02;
     }
   }
 
   &:focus {
-    outline: $border-weight-bold solid $primary-color;
+    outline: $border-weight-bold solid $border-focus;
   }
 
   &[aria-invalid="true"] {
-    outline: $border-weight-bold solid $error-color !important;
+    outline: $border-weight-bold solid $invalid !important;
   }
 
   &-clear {
-    border-bottom: $border-weight-bold solid $secondary-color;
+    border-bottom: $border-weight-bold solid $border-01;
     width: 100%;
     padding: $space-02 0;
 
     &::placeholder {
-      color: $placeholder-color;
+      color: $placeholder;
     }
 
     &:disabled {
-      border-color: map-get($disabled-color, disabled-02);
+      border-color: $disabled-02;
 
       &::placeholder {
-        color: map-get($disabled-color, disabled-02);
+        color: $disabled-02;
       }
     }
 
     &:focus {
-      border-color: $primary-color;
+      border-color: $border-focus;
     }
   }
 
   &-clear[aria-invalid="true"] {
-    border-color: $error-color !important;
+    border-color: $invalid !important;
   }
 }
 //
@@ -61,31 +61,32 @@
 
 .text-area {
   display: block;
-  background-color: $input-color;
+  background-color: $background-input;
   border: none;
   outline: $border-weight-bold solid transparent;
   outline-offset: -$border-weight-bold;
   min-width: 10rem;
   width: 100%;
   padding: $space-02 $space-03;
+  resize: vertical;
 
   &::placeholder {
-    color: $placeholder-color;
+    color: $placeholder;
   }
 
   &:disabled {
-    background-color: map-get($disabled-color, disabled-01);
+    background-color: $disabled-01;
 
     &::placeholder {
-      color: map-get($disabled-color, disabled-02);
+      color: $disabled-02;
     }
   }
 
   &:focus {
-    outline: $border-weight-bold solid $primary-color;
+    outline: $border-weight-bold solid $border-focus;
   }
 
   &[aria-invalid="true"] {
-    outline: $border-weight-bold solid $error-color !important;
+    outline: $border-weight-bold solid $invalid !important;
   }
 }

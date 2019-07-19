@@ -1,20 +1,14 @@
 //
-// Dependencies
-//
-
-@import "./node_modules/@two-design/color/index";
-@import "./node_modules/@two-design/spacing/index";
-@import "./node_modules/@two-design/typography/index";
-
-
-//
 // Setting
 //
 
 @import "variables";
+@import "./node_modules/@two-design-system/color/index";
 @import "mixins";
 @import "utilities";
 @import "theme";
+@import "./node_modules/@two-design-system/spacing/index";
+@import "./node_modules/@two-design-system/typography/index";
 
 
 //

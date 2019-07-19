@@ -1,11 +1,5 @@
-# `color`
+# Two Design Components
 
-> TODO: description
+## Getting Started
 
-## Usage
-
-```
-const color = require('color');
-
-// TODO: DEMONSTRATE API
-```
+Please see [Two Design Boilerplate](https://github.com/two2two2/two-design-boilerplate).

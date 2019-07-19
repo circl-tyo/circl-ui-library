@@ -46,7 +46,7 @@
 
 // Body
 body, p, a, dl, dd, ul, ol, li, table, th, td, tr, input, button, optgroup, select, textarea, label, code, pre, .text-body {
-  font-family: $primary-font, $default-font;
+  font-family: $default-font;
   font-size: map-get($body, font-size);
   font-weight: map-get($font-weight, light);
   letter-spacing: map-get($body, letter-spacing);
@@ -69,4 +69,10 @@ sub, sup, .text-sup {
   font-weight: map-get($font-weight, light);
   letter-spacing: map-get($sup, letter-spacing);
   line-height: map-get($line-height, default);
+}
+
+
+// Heading
+.heading {
+  font-family: $theme-font;
 }

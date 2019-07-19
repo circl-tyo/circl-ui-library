@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    color: $primary-color;
+    color: $primary;
     cursor: pointer;
     padding: $space-01 0;
     user-select: none;
@@ -44,7 +44,7 @@
   }
 
   &__item--disabled {
-    color: map-get($disabled-color, disabled-02) !important;
+    color: $disabled-02 !important;
     cursor: not-allowed !important;
     pointer-events: none !important;
   }

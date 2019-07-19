@@ -12,7 +12,7 @@
 
   &--disabled, &[aria-disabled="true"] {
     box-shadow: none;
-    color: map-get($disabled-color, disabled-02) !important;
+    color: $disabled-02 !important;
     cursor: not-allowed;
   }
 }

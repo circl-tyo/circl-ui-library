@@ -1,8 +1,7 @@
 {
-  "private": true,
-  "name": "@two-design/grid",
-  "version": "1.0.0",
-  "description": "> TODO: description",
+  "name": "@two-design-system/grid",
+  "version": "0.0.1",
+  "description": "Grid helpers for the Two design System",
   "author": "Two",
   "homepage": "https://github.com/two2two2/two-design-ui-library#readme",
   "license": "MIT",
@@ -10,5 +9,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/two2two2/two-design-ui-library.git"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

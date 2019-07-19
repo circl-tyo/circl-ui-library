@@ -2,7 +2,7 @@
 // Button
 //
 
-@mixin btn($display: inline-block, $background-color: $primary-color, $color: $white) {
+@mixin btn($display: inline-block, $background-color: $primary, $color: $primary-inverse) {
   position: relative;
   display: $display;
   background-color: $background-color;

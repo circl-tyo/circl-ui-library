@@ -8,7 +8,8 @@
 
   &__container {
     display: block;
-    border: $border-weight solid $tertiary-color;
+    background-color: $background-container;
+    border: $border-weight solid $border-01;
     overflow: hidden;
   }
 
@@ -17,7 +18,7 @@
     @include motion(border-color, 200ms, on);
 
     &:hover {
-      border-color: $primary_color;
+      border-color: $border-hover;
       @include motion(border-color, 150ms, on);
     }
   }
@@ -26,7 +27,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 56.25%;
+    padding-bottom: 56.25%;
   }
 
   &__header, &__content, &__content--primary {
@@ -35,6 +36,10 @@
 
   &__content--secondary, &__content--btn {
     padding: 0 $space-03 $space-03;
+  }
+
+  &__content--secondary {
+    color: $secondary;
   }
 
   &__btn {
@@ -51,11 +56,11 @@
 
   .card__media {
     width: 6rem;
-    padding-top: 6rem;
+    padding-bottom: 6rem;
 
     @include media-query(sm) {
       width: 10rem;
-      padding-top: 10rem;
+      padding-bottom: 10rem;
     }
   }
 

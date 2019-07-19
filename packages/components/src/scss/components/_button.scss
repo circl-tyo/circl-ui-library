@@ -6,8 +6,8 @@
   @include btn;
 
   &:disabled {
-    background-color: map-get($disabled-color, disabled-01) !important;
-    color: map-get($disabled-color, disabled-02) !important;
+    background-color: $disabled-01 !important;
+    color: $disabled-02 !important;
   }
 }
 
@@ -16,14 +16,14 @@
 // Line button
 //
 
-.btn-line {
-  @include btn($background-color: transparent, $color: $primary-color);
-  border: $border-weight solid $primary-color;
+.line-btn {
+  @include btn($background-color: transparent, $color: $primary);
+  border: $border-weight solid $primary;
 
   &:disabled {
-    background-color: map-get($disabled-color, disabled-01) !important;
+    background-color: $disabled-01 !important;
     border: none;
-    color: map-get($disabled-color, disabled-02) !important;
+    color: $disabled-02 !important;
   }
 }
 
@@ -32,11 +32,11 @@
 // Clear button
 //
 
-.btn-clear {
-  @include btn($background-color: transparent, $color: $primary-color);
+.clear-btn {
+  @include btn($background-color: transparent, $color: $primary);
 
   &:disabled {
-    color: map-get($disabled-color, disabled-02) !important;
+    color: $disabled-02 !important;
   }
 }
 
@@ -45,7 +45,7 @@
 // Icon button
 //
 
-.btn-icon {
+.icon-btn {
   display: inline-flex !important;
   align-items: center;
   flex-wrap: wrap;
@@ -61,14 +61,6 @@
 .btn--sm {
   min-width: inherit;
   padding: $space-01 $space-03;
-
-  &-right-icon {
-    padding-right: $space-02;
-  }
-
-  &-left-icon {
-    padding-right: $space-02;
-  }
 
   &:disabled > .btn__text::after {
     content: none;

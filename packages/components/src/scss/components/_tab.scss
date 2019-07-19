@@ -17,7 +17,7 @@
 
   &__btn--expanded+.tab-nav__list {
     @include media-query($rule: max) {
-      border-color: $third-color;
+      border-color: $border-01;
       max-height: 100rem;
     }
   }
@@ -25,7 +25,7 @@
   &__btn-text {
     position: relative;
     display: block;
-    background-color: $input-color;
+    background-color: $background-input;
     border: none;
     border-radius: 0;
     width: 100%;
@@ -44,7 +44,7 @@
     }
 
     &:hover {
-      background-color: map-get($hover-color, hover-02);
+      background-color: $hover-02;
     }
   }
 
@@ -67,19 +67,19 @@
     cursor: pointer;
     width: 100%;
     @include media-query {
-      margin-left: 0.25rem;
+      flex: 1;
     }
   }
 
   &__item+.tab-nav__item {
     @include media-query {
-      display: list-item;
+      margin-left: 0.25rem;
     }
   }
 
   &__item--selected .tab-nav__item-link {
     font-weight: map-get($font-weight, regular);
-    border-color: $primary-color;
+    border-color: $primary;
     @include media-query($rule: max) {
       display: none;
     }
@@ -90,8 +90,8 @@
   }
 
   &__item--disabled .tab-nav__item-link {
-    border-color: map-get($disabled-color, disabled-01);
-    color: map-get($disabled-color, disabled-02);
+    border-color: $disabled-01;
+    color: $disabled-02;
     pointer-events: none;
   }
 
@@ -99,7 +99,7 @@
     @include media-query($rule: max) {
       &::before {
         @include absolute($top: 0, $left: $space-03);
-        background-color: $third-color;
+        background-color: $background-input;
         content: '';
         height: $border-weight;
         width: calc(100% - #{$space-03} * 2);
@@ -117,17 +117,17 @@
     padding: $space-02 $space-03;
     @include motion((background-color, border-color), (100ms, 100ms), on);
     @include media-query($rule: max) {
-      background-color: map-get($hover-color, hover-01);
+      background-color: $hover-01;
 
       &:hover {
-        background-color: map-get($hover-color, hover-02);
+        background-color: $hover-02;
       }
     }
     @include media-query {
-      border-bottom: $border-weight-bold solid $secondary-color;
+      border-bottom: $border-weight-bold solid $border-01;
 
       &:hover {
-        border-color: $primary-color;
+        border-color: $primary;
       }
     }
   }

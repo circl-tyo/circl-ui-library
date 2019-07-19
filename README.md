@@ -1,15 +1,6 @@
-Two Design System
+Two Design UI library
 
 ## Features
-
-### Automation
-- Gulp
-- Webpack
-- Browsersync
-
-### HTML
-- EJS
-    - ejs-linter
 
 ### CSS
 - normalize.css
@@ -22,21 +13,11 @@ Two Design System
         - autoprefixer
         - css-mqpacker
 - Sprite(png/svg)
+- stylelint
 
 ### JavaScript
 - BabelJS
 - ESLint(eslint-config-airbnb)
-
-### Images
-- imagemin
-    - pngquant
-    - mozjpeg
-    - svgo
-    - optipng
-    - gifsicle
-
-### Component Guide
-- fractal
 
 ***
 
@@ -54,17 +35,15 @@ Two Design System
 ```
 # clone
 $ git clone ###
-$ cd frontend-starter-kit
+$ cd two-design-ui-library
 
 # Install Dependencies
-$ npm install
-
-# Run the Application
-$ npm run start
-
-# Deploy for production
-$ npm run dist
+$ npm run lerna:bootstrap
 ```
+
+or
+
+Please see [Two Design Boilerplate](https://github.com/two2two2/two-design-boilerplate).
 
 ***
 
@@ -72,69 +51,47 @@ $ npm run dist
 
 ```
 .
-├── .babelrc
-├── .browserslist
+├── packages
+│   ├── color
+│   │   ├── index.scss
+│   │   └── package.json
+│   ├── components
+│   │   └── src
+│   │       ├── js
+│   │       ├── scss
+│   │       └── package.json
+│   ├── grid
+│   │   ├── index.scss
+│   │   └── package.json
+│   ├── icons
+│   │   ├── index.scss
+│   │   └── package.json
+│   ├── icons
+│   │   ├── index.scss
+│   │   └── package.json
+│   ├── layout
+│   │   ├── index.scss
+│   │   └── package.json
+│   ├── motion
+│   │   ├── index.scss
+│   │   └── package.json
+│   ├── spacing
+│   │   ├── index.scss
+│   │   └── package.json
+│   ├── theme
+│   │   ├── index.scss
+│   │   └── package.json
+│   ├── typography
+│   │   ├── index.scss
+│   │   └── package.json
+│   └── visual-forms
+│       ├── index.scss
+│       └── package.json
 ├── .eslintrc
 ├── .gitignore
-├── .sprite-png-template
-├── .sprite-svg-template
-├── fractal.config.js
+├── .stylelintrc
 ├── gulpfile.js
+├── lerna.json
 ├── package.json
-├── README.md
-├── dist -> client-side public
-├── docs -> fractal components guide
-├── src
-│   ├── docs
-│   │   ├── components
-│   │   │   ├── _preview.hbs.html
-│   │   │   └── headings.hbs
-│   │   └── index.md
-│   ├── img
-│   │   └── sprite
-│   │       ├── png
-│   │       └── svg
-│   ├── js
-│   │   └── app.js
-│   ├── ejs
-│   │   ├── inc
-│   │   │   ├── core
-│   │   │   │   ├── _base.ejs
-│   │   │   │   ├── _config.ejs
-│   │   │   │   └── _mixin.ejs
-│   │   │   ├── layout
-│   │   │   │   ├── _footer.ejs
-│   │   │   │   └── _header.ejs
-│   │   │   └── module
-│   │   ├── index.ejs
-│   │   └── setting.json
-│   └── scss
-│       ├── app.scss
-│       ├── components
-│       ├── foundation
-│       │   ├── base
-│       │   │   └── _default.scss
-│       │   ├── functions
-│       │   │   ├── _rem.scss
-│       │   │   ├── _sprite.scss
-│       │   │   └── _z-index.scss
-│       │   ├── mixins
-│       │   │   ├── _clearfix.scss
-│       │   │   ├── _media-queries-only.scss
-│       │   │   ├── _media-queries.scss
-│       │   │   ├── _placeholder.scss
-│       │   │   ├── _responsive-iframe.scss
-│       │   │   └── _sprite-image-replace.scss
-│       │   └── variables
-│       │       └── _variables.scss
-│       ├── layout
-│       │   ├── _container.scss
-│       │   ├── _footer.scss
-│       │   ├── _header.scss
-│       │   └── _sidebar.scss
-│       ├── utility
-│       └── venders
-├── webpack.common.js
-├── webpack.dev.js
-└── webpack.prod.js
+└── README.md
 ```

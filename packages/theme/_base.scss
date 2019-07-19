@@ -17,14 +17,14 @@
   }
 
   &::selection {
-    background-color: $selection-color;
+    background-color: $selection;
   }
 }
 
 
 // Body
 body {
-  color: $primary-color;
+  color: $primary;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -60,14 +60,10 @@ b, strong {
 
 // Link
 a {
-  color: $primary-color;
+  color: $primary;
   text-decoration: none;
   background-color: transparent;
   pointer-events: auto;
-
-  &:hover {
-    color: $primary-color;
-  }
 }
 
 
@@ -78,14 +74,6 @@ dl, dd, ul, ol, li, form, fieldset {
   margin: 0;
   padding: 0;
   outline: 0;
-}
-
-
-// Table
-table {
-  border: none;
-	border-collapse: collapse;
-	border-spacing: 0;
 }
 
 
@@ -117,6 +105,34 @@ code, pre {
   padding: 0;
 }
 
+
+//
+// Table
+//
+
+table {
+  border: none;
+	border-collapse: collapse;
+	border-spacing: 0;
+  table-layout: auto;
+  width: 100%;
+  margin: $space-03 auto $space-05;
+
+  tr:first-child {
+    background-color: $background-table;
+  }
+
+  tr:first-child td {
+    font-weight: map-get($font-weight, regular);
+    border: none;
+  }
+
+  td {
+    border-bottom: $border-weight solid $border-01;
+    padding: $space-02 $space-02 $space-04;
+    vertical-align: middle;
+  }
+}
 
 //
 // Form

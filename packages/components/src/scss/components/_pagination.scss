@@ -18,12 +18,12 @@
     }
 
     &:hover {
-      background-color: map-get($hover-color, hover-01);
+      background-color: $hover-01;
     }
   }
 
   &__btn--disabled {
-    color: $secondary_color;
+    color: $disabled-02;
     pointer-events: none;
   }
 
@@ -40,12 +40,12 @@
     }
 
     &:hover {
-      background-color: map-get($hover-color, hover-01);
+      background-color: $hover-01;
     }
   }
 
   &__icon-btn--disabled {
-    color: $secondary_color;
+    color: $disabled-02;
     pointer-events: none;
   }
 
@@ -83,7 +83,7 @@
     }
 
     &:hover {
-      background-color: map-get($hover-color, hover-01);
+      background-color: $hover-01;
     }
   }
 }

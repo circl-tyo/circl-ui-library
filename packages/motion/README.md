@@ -1,11 +1,5 @@
-# `motion`
+# Two Design Components
 
-> TODO: description
+## Getting Started
 
-## Usage
-
-```
-const motion = require('motion');
-
-// TODO: DEMONSTRATE API
-```
+Please see [Two Design Boilerplate](https://github.com/two2two2/two-design-boilerplate).

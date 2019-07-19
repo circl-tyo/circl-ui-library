@@ -6,7 +6,7 @@ class Tab {
   constructor(domNode) {
     this.tab = domNode;
     this.trigger = domNode.querySelector('.tab-nav__btn');
-    this.navs = Array.from(domNode.querySelectorAll('.tab-nav__item'));
+    this.navs = Array.from(domNode.querySelectorAll('.tab-nav__item-link'));
     this.panels = Array.from(domNode.querySelectorAll('.tab-panel__item'));
     this.selected = {
       text: '',
@@ -50,7 +50,7 @@ class Tab {
 
   setValue(nav) {
     for (let nav of this.navs) {
-      nav.classList.remove('tab-nav__item--selected');
+      nav.parentNode.classList.remove('tab-nav__item--selected');
     }
     for (let panel of this.panels) {
       panel.hidden = true;
@@ -58,9 +58,9 @@ class Tab {
     const btnText = this.trigger.querySelector('.tab-nav__btn-text');
     this.selected.text = nav.textContent;
     this.selected.index = this.navs.indexOf(nav);
-    this.selected.val = nav.getAttribute('data-tab-target');
+    this.selected.val = nav.parentNode.getAttribute('data-tab-target');
     btnText.textContent = this.selected.text;
-    nav.classList.add('tab-nav__item--selected');
+    nav.parentNode.classList.add('tab-nav__item--selected');
     this.tab.querySelector(this.selected.val).hidden = false;
   }
 

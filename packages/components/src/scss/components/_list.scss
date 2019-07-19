@@ -28,7 +28,7 @@
   }
 
   &__item-content--underline {
-    border-bottom: $border-weight solid $third-color;
+    border-bottom: $border-weight solid $border-01;
     padding: $space-03 0 !important;
   }
 }
@@ -54,13 +54,13 @@
 
 // List primary text
 .list__item-primary-text {
-  color: $primary-color;
+  color: $primary;
 }
 
 
 // List secondary text
 .list__item-secondary-text {
-  color: $secondary-color;
+  color: $secondary;
   margin-top: $space-01;
 }
 
@@ -77,11 +77,11 @@
   padding: $space-01 $space-03;
 
   &:hover {
-    background-color: map-get($hover-color, hover-01);
+    background-color: $hover-01;
   }
 
   &--underline {
-    border-bottom: $border-weight solid $third-color;
+    border-bottom: $border-weight solid $border-01;
     padding: $space-03 !important;
   }
 

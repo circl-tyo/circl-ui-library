@@ -1,8 +1,7 @@
 {
-  "private": true,
-  "name": "@two-design/theme",
-  "version": "1.0.0",
-  "description": "> TODO: description",
+  "name": "@two-design-system/theme",
+  "version": "0.0.1",
+  "description": "Theme template for the Two design System",
   "author": "Two",
   "homepage": "https://github.com/two2two2/two-design-ui-library#readme",
   "license": "MIT",
@@ -11,8 +10,16 @@
     "url": "git+https://github.com/two2two2/two-design-ui-library.git"
   },
   "dependencies": {
-    "@two-design/color": "^1.0.0",
-    "@two-design/spacing": "^1.0.0",
-    "@two-design/typography": "^1.0.0"
+    "@two-design-system/color": "^0.0.1",
+    "@two-design-system/spacing": "^0.0.1",
+    "@two-design-system/typography": "^0.0.1"
+  },
+  "bundledDependencies": [
+    "@two-design-system/color",
+    "@two-design-system/spacing",
+    "@two-design-system/typography"
+  ],
+  "publishConfig": {
+    "access": "public"
   }
 }

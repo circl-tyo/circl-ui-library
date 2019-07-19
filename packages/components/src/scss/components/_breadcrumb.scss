@@ -17,28 +17,28 @@
     margin-right: $space-01;
 
     &::after {
-      color: $secondary-color;
+      color: $third;
       content: '/';
       margin-left: $space-01;
       @include motion(color, 100ms, on);
     }
 
     &:hover::after {
-      color: $primary-color;
+      color: $primary;
     }
   }
 
   &__item--current .breadcrumb__item-link {
-    color: $primary-color !important;
+    color: $primary !important;
     pointer-events: none;
   }
 
   &__item-link {
-    color: $secondary-color;
+    color: $third;
     @include motion(color, 100ms, on);
 
     &:hover {
-      color: $primary-color;
+      color: $primary;
     }
   }
 }

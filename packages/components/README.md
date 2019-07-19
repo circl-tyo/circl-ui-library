@@ -1,11 +1,12 @@
-# `components`
+# Two Design Components
 
-> TODO: description
-
-## Usage
+## Getting Started
 
 ```
-const components = require('components');
-
-// TODO: DEMONSTRATE API
+# npm
+$ npm install two-design-components
 ```
+
+or
+
+Please see [Two Design Boilerplate](https://github.com/two2two2/two-design-boilerplate).

@@ -29,13 +29,13 @@
     flex: 1 1;
     flex-direction: column;
     align-items: flex-start;
-    color: $primary-color;
+    color: $primary;
     cursor: pointer;
     user-select: none;
   }
 
   &__item--disabled {
-    color: map-get($disabled-color, disabled-02) !important;
+    color: $disabled-02 !important;
     cursor: not-allowed !important;
   }
 

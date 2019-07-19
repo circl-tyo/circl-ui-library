@@ -18,22 +18,22 @@
   }
 
   &__input {
-    background-color: $input-color;
+    background-color: $background-input;
     width: 100%;
     padding: $space-02 $space-05 $space-02 2.25rem;
 
     &::placeholder {
-      color: $placeholder-color;
+      color: $placeholder;
     }
 
     &:disabled {
       &::placeholder {
-        color: map-get($disabled-color, disabled-02);
+        color: $disabled-02;
       }
     }
 
     &:disabled + .search__icon {
-      color: map-get($disabled-color, disabled-02) !important;
+      color: $disabled-02 !important;
     }
 
     &::-ms-clear {
@@ -48,7 +48,7 @@
   &__icon {
     @include absolute($top: 50%, $left: 0.5rem);
     transform: translateY(-50%);
-    color: $placeholder-color;
+    color: $placeholder;
     pointer-events: none;
   }
 }
@@ -74,7 +74,7 @@
   @include motion(100ms, all, on);
 
   &:hover {
-    background-color: map-get($hover-color, hover-02);
+    background-color: $hover-02;
   }
 
   &--hidden {
@@ -83,6 +83,6 @@
   }
 
   &-icon {
-    color: $placeholder-color;
+    color: $placeholder;
   }
 }

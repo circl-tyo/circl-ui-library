@@ -14,21 +14,21 @@
   }
 
   &--disabled .dropdown__btn {
-    background-color: map-get($disabled-color, disabled-01);
-    color: map-get($disabled-color, disabled-02);
+    background-color: $disabled-01 !important;
+    color: $disabled-02 !important;
     pointer-events: none;
   }
 
   &--invalid {
     .dropdown__btn {
-      outline: $border-weight-bold solid $error-color !important;
+      outline: $border-weight-bold solid $invalid !important;
     }
   }
 
   &__btn {
     position: relative;
     display: block;
-    background-color: $input-color;
+    background-color: $background-input;
     border: none;
     border-radius: 0;
     width: 100%;
@@ -49,7 +49,7 @@
     }
 
     &:hover {
-      background-color: map-get($hover-color, hover-02);
+      background-color: $hover-02;
     }
   }
 
@@ -59,12 +59,12 @@
     }
 
     &:hover {
-      background-color: map-get($hover-color, hover-02) !important;
+      background-color: $hover-02 !important;
     }
   }
 
   &__btn--expanded+.dropdown__list {
-    border-color: $third-color;
+    border-color: $border-01;
     max-height: 100rem;
   }
 
@@ -81,18 +81,18 @@
   }
 
   &__item {
-    background-color: $input-color;
+    background-color: $background-input;
     @include motion(background-color, 100ms, on);
 
     &:hover {
-      background-color: map-get($hover-color, hover-02);
+      background-color: $hover-02;
     }
   }
 
   &__item+.dropdown__item .dropdown__item-link {
     &::before {
       @include absolute($top: 0, $left: $space-03);
-      background-color: $third-color;
+      background-color: $background-input;
       content: '';
       height: $border-weight;
       width: calc(100% - #{$space-03} * 2);

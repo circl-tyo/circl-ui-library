@@ -11,7 +11,7 @@
   &__item-btn {
     position: relative;
     text-align: left !important;
-    border-bottom: $border-weight solid $third-color;
+    border-bottom: $border-weight solid $border-01;
     cursor: pointer;
     width: 100%;
     padding: $space-03 $space-05 $space-03 $space-03;
@@ -25,22 +25,22 @@
     }
 
     &:hover {
-      background-color: map-get($hover-color, hover-02);
+      background-color: $hover-01;
     }
   }
 
   &__item-link {
     position: relative;
     display: block;
-    border-bottom: $border_weight solid $third-color;
-    color: $primary-color;
+    border-bottom: $border_weight solid $border-01;
+    color: $primary;
     cursor: pointer;
     width: 100%;
     padding: $space-03;
     @include motion(background-color, 100ms, on);
 
     &:hover {
-      background-color: $third-color;
+      background-color: $hover-01;
     }
   }
 
@@ -80,14 +80,14 @@
   &__content-item-link {
     position: relative;
     display: block;
-    color: $primary-color;
+    color: $primary;
     cursor: pointer;
     width: 100%;
     padding: $space-01 $space-04;
     @include motion(background-color, 100ms, on);
 
     &:hover {
-      background-color: map-get($hover-color, hover-01);
+      background-color: $hover-01;
     }
   }
 }
@@ -119,21 +119,21 @@
     }
 
     &:hover {
-      background-color: map-get($hover-color, hover-01);
+      background-color: $hover-01;
     }
   }
 
   &__item-link {
     position: relative;
     display: block;
-    color: $primary-color;
+    color: $primary;
     cursor: pointer;
     width: 100%;
     padding: $space-01 $space-01 $space-01 $space-04;
     @include motion(background-color, 100ms, on);
 
     &:hover {
-      background-color: map-get($hover-color, hover-01);
+      background-color: $hover-01;
     }
   }
 
