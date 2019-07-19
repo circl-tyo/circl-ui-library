@@ -1,4 +1,4 @@
-Two Design UI library
+CIRCL Design UI library
 
 ## Features
 
@@ -35,7 +35,7 @@ Two Design UI library
 ```
 # clone
 $ git clone ###
-$ cd two-design-ui-library
+$ cd circl-design-ui-library
 
 # Install Dependencies
 $ npm run lerna:bootstrap
@@ -43,7 +43,7 @@ $ npm run lerna:bootstrap
 
 or
 
-Please see [Two Design Boilerplate](https://github.com/two2two2/two-design-boilerplate).
+Please see [CIRCL Design Boilerplate](https://github.com/circl-tyo/circl-boilerplate).
 
 ***
 

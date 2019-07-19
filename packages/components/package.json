@@ -1,23 +1,23 @@
 {
-  "name": "two-design-components",
+  "name": "circl-design-components",
   "version": "0.0.1",
-  "description": "The sets of UI Components for the Two design System",
-  "author": "Two",
-  "homepage": "https://github.com/two2two2/two-design-ui-library#readme",
+  "description": "The sets of UI Components for the CIRCL design System",
+  "author": "CIRCL",
+  "homepage": "https://github.com/circl-tyo/circl-ui-library#readme",
   "license": "MIT",
   "main": "src/js/modules.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/two2two2/two-design-ui-library.git"
+    "url": "git+https://github.com/circl-tyo/circl-ui-library.git"
   },
   "scripts": {
     "test": "rm -rf coverage && karma start --singleRun"
   },
   "dependencies": {
-    "@two-design-system/grid": "^0.0.1",
-    "@two-design-system/icons": "^0.0.1",
-    "@two-design-system/motion": "^0.0.1",
-    "@two-design-system/theme": "^0.0.1"
+    "@circl-design-system/grid": "^0.0.1",
+    "@circl-design-system/icons": "^0.0.1",
+    "@circl-design-system/motion": "^0.0.1",
+    "@circl-design-system/theme": "^0.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -35,10 +35,10 @@
     "webpack": "^3.8.1"
   },
   "bundledDependencies": [
-    "@two-design-system/grid",
-    "@two-design-system/icons",
-    "@two-design-system/motion",
-    "@two-design-system/theme"
+    "@circl-design-system/grid",
+    "@circl-design-system/icons",
+    "@circl-design-system/motion",
+    "@circl-design-system/theme"
   ],
   "publishConfig": {
     "access": "public"

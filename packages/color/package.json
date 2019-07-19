@@ -1,14 +1,14 @@
 {
-  "name": "@two-design-system/color",
+  "name": "@circl-design-system/color",
   "version": "0.0.1",
-  "description": "Color helpers for the Two design System",
-  "author": "Two",
-  "homepage": "https://github.com/two2two2/two-design-ui-library#readme",
+  "description": "Color helpers for the CIRCL design System",
+  "author": "CIRCL",
+  "homepage": "https://github.com/circl-tyo/circl-ui-library#readme",
   "license": "MIT",
   "main": "color.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/two2two2/two-design-ui-library.git"
+    "url": "git+https://github.com/circl-tyo/circl-ui-library.git"
   },
   "publishConfig": {
     "access": "public"

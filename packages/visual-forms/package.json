@@ -1,14 +1,14 @@
 {
-  "name": "@two-design-system/visual-forms",
+  "name": "@circl-design-system/visual-forms",
   "version": "0.0.1",
-  "description": "Visual forms helpers for the Two design System",
-  "author": "Two",
-  "homepage": "https://github.com/two2two2/two-design-ui-library#readme",
+  "description": "Visual forms helpers for the CIRCL design System",
+  "author": "CIRCL",
+  "homepage": "https://github.com/circl-tyo/circl-ui-library#readme",
   "license": "MIT",
   "main": "visual-forms.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/two2two2/two-design-ui-library.git"
+    "url": "git+https://github.com/circl-tyo/circl-ui-library.git"
   },
   "publishConfig": {
     "access": "public"

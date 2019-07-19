@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "two-design-system",
-  "description": "The UI components and helpers for the Two Design System",
+  "name": "circl-design-system",
+  "description": "The UI components and helpers for the CIRCL Design System",
   "version": "0.0.0",
-  "author": "Two",
+  "author": "CIRCL",
   "license": "MIT",
   "scripts": {
     "lint": "gulp lint",

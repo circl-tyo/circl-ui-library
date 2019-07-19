@@ -1,23 +1,23 @@
 {
-  "name": "@two-design-system/theme",
+  "name": "@circl-design-system/theme",
   "version": "0.0.1",
-  "description": "Theme template for the Two design System",
-  "author": "Two",
-  "homepage": "https://github.com/two2two2/two-design-ui-library#readme",
+  "description": "Theme template for the CIRCL design System",
+  "author": "CIRCL",
+  "homepage": "https://github.com/circl-tyo/circl-ui-library#readme",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/two2two2/two-design-ui-library.git"
+    "url": "git+https://github.com/circl-tyo/circl-ui-library.git"
   },
   "dependencies": {
-    "@two-design-system/color": "^0.0.1",
-    "@two-design-system/spacing": "^0.0.1",
-    "@two-design-system/typography": "^0.0.1"
+    "@circl-design-system/color": "^0.0.1",
+    "@circl-design-system/spacing": "^0.0.1",
+    "@circl-design-system/typography": "^0.0.1"
   },
   "bundledDependencies": [
-    "@two-design-system/color",
-    "@two-design-system/spacing",
-    "@two-design-system/typography"
+    "@circl-design-system/color",
+    "@circl-design-system/spacing",
+    "@circl-design-system/typography"
   ],
   "publishConfig": {
     "access": "public"

@@ -1,14 +1,14 @@
 {
-  "name": "@two-design-system/icons",
+  "name": "@circl-design-system/icons",
   "version": "0.0.1",
-  "description": "The sets of icons for the Two design System",
-  "author": "Two",
-  "homepage": "https://github.com/two2two2/two-design-ui-library#readme",
+  "description": "The sets of icons for the CIRCL design System",
+  "author": "CIRCL",
+  "homepage": "https://github.com/circl-tyo/circl-ui-library#readme",
   "license": "MIT",
   "main": "icons.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/two2two2/two-design-ui-library.git"
+    "url": "git+https://github.com/circl-tyo/circl-ui-library.git"
   },
   "publishConfig": {
     "access": "public"
