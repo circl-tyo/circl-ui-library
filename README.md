@@ -1,4 +1,4 @@
-CIRCL Design UI library
+CIRCL UI library
 
 ## Features
 
