@@ -19,8 +19,6 @@ CIRCL UI library
 - BabelJS
 - ESLint(eslint-config-airbnb)
 
-***
-
 ## Requirements
 
 - `node` >= 11.11.0
@@ -28,17 +26,15 @@ CIRCL UI library
 - `gulp` >= 3.9.1
 - `sass` >= 3.4.24
 
-***
-
 ## Getting Started
 
 ```
 # clone
 $ git clone ###
-$ cd circl-design-ui-library
+$ cd circl-design-components
 
 # Install Dependencies
-$ npm run lerna:bootstrap
+$ npm run bootstrap
 ```
 
 or
