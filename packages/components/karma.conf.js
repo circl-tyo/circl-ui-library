@@ -29,8 +29,7 @@ module.exports = function(config) {
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
       'tests/html/**/*.html': ['html2js'],
-      'src/js/**/accordion.js': ['webpack', 'sourcemap'],
-      'src/js/**/checkbox.js': ['webpack', 'sourcemap'],
+      'src/js/**/*.js': ['webpack', 'sourcemap'],
       'tests/*.js': ['webpack', 'sourcemap']
     },
 
