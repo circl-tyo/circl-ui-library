@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "circl-design-system",
+  "name": "circl-ui-library",
   "description": "The UI components and helpers for the CIRCL Design System",
   "version": "0.0.0",
   "author": "CIRCL",
