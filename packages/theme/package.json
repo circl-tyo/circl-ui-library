@@ -1,5 +1,5 @@
 {
-  "name": "@circl-ui-library/theme",
+  "name": "@circl-design-system/theme",
   "version": "0.0.1",
   "description": "Theme template for the CIRCL design System",
   "author": "CIRCL",
@@ -10,14 +10,14 @@
     "url": "git+https://github.com/circl-tyo/circl-ui-library.git"
   },
   "dependencies": {
-    "@circl-ui-library/color": "^0.0.1",
-    "@circl-ui-library/spacing": "^0.0.1",
-    "@circl-ui-library/typography": "^0.0.1"
+    "@circl-design-system/color": "^0.0.1",
+    "@circl-design-system/spacing": "^0.0.1",
+    "@circl-design-system/typography": "^0.0.1"
   },
   "bundledDependencies": [
-    "@circl-ui-library/color",
-    "@circl-ui-library/spacing",
-    "@circl-ui-library/typography"
+    "@circl-design-system/color",
+    "@circl-design-system/spacing",
+    "@circl-design-system/typography"
   ],
   "publishConfig": {
     "access": "public"
