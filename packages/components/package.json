@@ -14,10 +14,10 @@
     "test": "rm -rf coverage && karma start --singleRun"
   },
   "dependencies": {
-    "@circl-design-system/grid": "^0.0.1",
-    "@circl-design-system/icons": "^0.0.1",
-    "@circl-design-system/motion": "^0.0.1",
-    "@circl-design-system/theme": "^0.0.1"
+    "@circl-ui-library/grid": "^0.0.1",
+    "@circl-ui-library/icons": "^0.0.1",
+    "@circl-ui-library/motion": "^0.0.1",
+    "@circl-ui-library/theme": "^0.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -35,10 +35,10 @@
     "webpack": "^3.8.1"
   },
   "bundledDependencies": [
-    "@circl-design-system/grid",
-    "@circl-design-system/icons",
-    "@circl-design-system/motion",
-    "@circl-design-system/theme"
+    "@circl-ui-library/grid",
+    "@circl-ui-library/icons",
+    "@circl-ui-library/motion",
+    "@circl-ui-library/theme"
   ],
   "publishConfig": {
     "access": "public"
