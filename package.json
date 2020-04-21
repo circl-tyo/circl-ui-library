@@ -1,5 +1,5 @@
 {
-  "name": "circl-ui-library",
+  "name": "@circl-tyo/circl-ui-library",
   "description": "The UI components and helpers for the CIRCL Design System",
   "version": "0.0.1",
   "author": "CIRCL",
