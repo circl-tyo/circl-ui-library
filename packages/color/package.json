@@ -1,14 +1,14 @@
 {
-  "name": "@circl-design-system/color",
+  "name": "@circl-design-elements/color",
   "version": "0.0.1",
   "description": "Color helpers for the CIRCL design System",
   "author": "CIRCL",
-  "homepage": "https://github.com/circl-tyo/circl-ui-library#readme",
+  "homepage": "https://github.com/circl-tyo/circl-design-elements#readme",
   "license": "MIT",
   "main": "color.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/circl-tyo/circl-ui-library.git"
+    "url": "git+https://github.com/circl-tyo/circl-design-elements.git"
   },
   "publishConfig": {
     "access": "public"

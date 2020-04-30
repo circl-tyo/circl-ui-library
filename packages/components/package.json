@@ -3,21 +3,21 @@
   "version": "0.0.1",
   "description": "The sets of UI Components for the CIRCL design System",
   "author": "CIRCL",
-  "homepage": "https://github.com/circl-tyo/circl-ui-library#readme",
+  "homepage": "https://github.com/circl-tyo/circl-design-elements#readme",
   "license": "MIT",
   "main": "src/js/modules.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/circl-tyo/circl-ui-library.git"
+    "url": "git+https://github.com/circl-tyo/circl-design-elements.git"
   },
   "scripts": {
     "test": "rm -rf coverage && karma start --singleRun"
   },
   "dependencies": {
-    "@circl-design-system/grid": "^0.0.1",
-    "@circl-design-system/icons": "^0.0.1",
-    "@circl-design-system/motion": "^0.0.1",
-    "@circl-design-system/theme": "^0.0.1"
+    "@circl-design-elements/grid": "^0.0.1",
+    "@circl-design-elements/icons": "^0.0.1",
+    "@circl-design-elements/motion": "^0.0.1",
+    "@circl-design-elements/theme": "^0.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -35,10 +35,10 @@
     "webpack": "^3.8.1"
   },
   "bundledDependencies": [
-    "@circl-design-system/grid",
-    "@circl-design-system/icons",
-    "@circl-design-system/motion",
-    "@circl-design-system/theme"
+    "@circl-design-elements/grid",
+    "@circl-design-elements/icons",
+    "@circl-design-elements/motion",
+    "@circl-design-elements/theme"
   ],
   "publishConfig": {
     "access": "public"
