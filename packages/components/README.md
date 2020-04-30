@@ -4,7 +4,7 @@
 
 ```
 # npm
-$ npm install circl-design-components
+$ npm install components
 ```
 
 or

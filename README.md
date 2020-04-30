@@ -1,4 +1,4 @@
-CIRCL UI library
+CIRCL Design Elements
 
 ## Features
 
@@ -31,7 +31,7 @@ CIRCL UI library
 ```
 # clone
 $ git clone ###
-$ cd circl-design-components
+$ cd circl-design-elements
 
 # Install Dependencies
 $ npm run bootstrap

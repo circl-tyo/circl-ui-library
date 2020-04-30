@@ -1,14 +1,14 @@
 {
-  "name": "@circl-ui-library/visual-forms",
+  "name": "@circl-design-elements/visual-forms",
   "version": "0.0.1",
   "description": "Visual forms helpers for the CIRCL design System",
   "author": "CIRCL",
-  "homepage": "https://github.com/circl-tyo/circl-ui-library#readme",
+  "homepage": "https://github.com/circl-tyo/circl-design-elements#readme",
   "license": "MIT",
   "main": "visual-forms.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/circl-tyo/circl-ui-library.git"
+    "url": "git+https://github.com/circl-tyo/circl-design-elements.git"
   },
   "publishConfig": {
     "access": "public"
