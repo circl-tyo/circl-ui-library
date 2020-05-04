@@ -18,6 +18,6 @@
     "@circl-tyo/icons": "^0.0.1",
     "@circl-tyo/motion": "^0.0.1",
     "@circl-tyo/spacing": "^0.0.1",
-    "@circl-tyo/typography": "^0.0.1"
+    "@circl-tyo/typography": "^0.0.2"
   }
 }
