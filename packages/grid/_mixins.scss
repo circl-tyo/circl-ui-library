@@ -32,20 +32,20 @@
     > * {
       padding-right: $gutter-01 / 2;
       padding-left: $gutter-01 / 2;
-      @include media-query {
-        padding-right: $gutter-02 / 2;
-        padding-left: $gutter-02 / 2;
-      }
+      // @include media-query {
+      //   padding-right: $gutter-02 / 2;
+      //   padding-left: $gutter-02 / 2;
+      // }
     }
   }
 
   @if $margin {
     margin-right: -1 * $gutter-01 / 2;
     margin-left: -1 * $gutter-01 / 2;
-    @include media-query {
-      margin-right: -1 * $gutter-02 / 2;
-      margin-left: -1 * $gutter-02 / 2;
-    }
+    // @include media-query {
+    //   margin-right: -1 * $gutter-02 / 2;
+    //   margin-left: -1 * $gutter-02 / 2;
+    // }
   }
 }
 
@@ -63,25 +63,25 @@
   $flex-basis-lg: $width-lg * $columns;
 
   @if ($breakpoint == 'lg') {
-    @include media-query(lg) {
-      @if ($columns == 0) {
-        flex: 1 0 0;
-        width: auto;
-      } @else {
-        flex: 0 0 $flex-basis-lg;
-        min-width: $flex-basis-lg;
-      }
-    }
+    // @include media-query(lg) {
+    //   @if ($columns == 0) {
+    //     flex: 1 0 0;
+    //     width: auto;
+    //   } @else {
+    //     flex: 0 0 $flex-basis-lg;
+    //     min-width: $flex-basis-lg;
+    //   }
+    // }
   } @else if ($breakpoint == 'md') {
-    @include media-query {
-      @if ($columns == 0) {
-        flex: 1 0 0;
-        width: auto;
-      } @else {
-        flex: 0 0 $flex-basis-md;
-        min-width: $flex-basis-md;
-      }
-    }
+    // @include media-query {
+    //   @if ($columns == 0) {
+    //     flex: 1 0 0;
+    //     width: auto;
+    //   } @else {
+    //     flex: 0 0 $flex-basis-md;
+    //     min-width: $flex-basis-md;
+    //   }
+    // }
   } @else {
     @if ($columns == 0) {
       flex: 1 0 0;
