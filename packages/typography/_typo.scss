@@ -21,9 +21,9 @@
     font-weight: map-get($font-weight, regular);
     letter-spacing: nth($letter-spacing, $i);
     line-height: map-get($line-height, heading);
-    @include media-query {
-      font-size: nth($font-size-laptop, $i);
-    }
+    // @include media-query {
+    //   font-size: nth($font-size-laptop, $i);
+    // }
 	}
 }
 
@@ -37,9 +37,9 @@
     font-weight: map-get($font-weight, regular);
     letter-spacing: nth($letter-spacing-en, $i);
     line-height: map-get($line-height, heading);
-    @include media-query {
-      font-size: nth($font-size-laptop-en, $i);
-    }
+    // @include media-query {
+    //   font-size: nth($font-size-laptop-en, $i);
+    // }
 	}
 }
 
@@ -73,6 +73,6 @@ sub, sup, .text-sup {
 
 
 // Heading
-.heading {
-  font-family: $theme-font;
-}
+// .heading {
+//   font-family: $theme-font;
+// }
