@@ -1,6 +1,6 @@
 {
-  "name": "@circl-tyo/circl-design-elements",
-  "description": "The UI components and helpers for the CIRCL Design System",
+  "name": "circl",
+  "description": "",
   "version": "0.0.1",
   "author": "CIRCL",
   "license": "MIT",
