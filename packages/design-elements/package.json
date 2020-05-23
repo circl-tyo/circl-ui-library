@@ -1,6 +1,6 @@
 {
   "name": "@circl-tyo/design-elements",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "> TODO: description",
   "author": "CIRCL",
   "homepage": "https://github.com/circl-tyo/circl/design-elements#readme",
@@ -13,7 +13,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@circl-tyo/color": "^0.0.3",
+    "@circl-tyo/color": "^0.0.4",
     "@circl-tyo/grid": "^0.0.3",
     "@circl-tyo/icons": "^0.0.2",
     "@circl-tyo/motion": "^0.0.2",
